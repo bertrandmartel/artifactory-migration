@@ -10,7 +10,6 @@ username = os.getenv('ARTIFACTORY_DEST_USERNAME', "")
 password = os.getenv('ARTIFACTORY_DEST_PASSWORD', "")
 
 artifactDir = "artifacts"
-repo = "maven-all"
 
 def uploadFile(filename, url):
     try:
